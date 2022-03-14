@@ -124,7 +124,7 @@ export default {
         : `/${mode}/${this.$route.params.lat}/${this.$route.params.lon}`
     },
     getUrl () {
-      return require(`@/assets/images/banner_${this.mode}.png`)
+      return require(`../assets/images/banner_${this.mode}.png`)
     },
     getTitle () {
       if (this.$route.params.keyword) return this.$route.params.keyword.split(',').join(' ')
